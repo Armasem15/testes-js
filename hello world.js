@@ -1,0 +1,11 @@
+console.log ("hello wolrd");
+console.log (0123456789);
+console.log ("joao");
+X=8+9;
+console.log(X);
+Y=81;
+Z=9;
+T=Y+Z;
+console.log(T);
+console.log("o resultado é:", T);
+console.log("a variavel é:", X);

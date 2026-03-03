@@ -1,15 +1,19 @@
-console.log
+// Definição dos carros
+let carro1 = "Fusca";
+let carro2 = "Chevette";
 
-carro1 = "fusca"
-carro2 = "chevete"
+// Quantos km cada um andou
+let kmCarro1 = 100;
+let kmCarro2 = 120;
 
-kmcarro1 = 100;
-kmcarro2 = 120;
+// Definição do preço por km (Exemplo: R$ 2,50)
+let precoPorKm = 2.50;
 
-preçokm1 = 
-console.log 
+// Cálculos
+let totalCarro1 = kmCarro1 * precoPorKm;
+let totalCarro2 = kmCarro2 * precoPorKm;
 
-
-//quantos km andou
-//quanto reais vai dar
-// x 
+// Exibindo os resultados no console
+console.log("--- Relatório de Gastos ---");
+console.log("O " + carro1 + " andou " + kmCarro1 + "km. Total: R$ " + totalCarro1);
+console.log("O " + carro2 + " andou " + kmCarro2 + "km. Total: R$ " + totalCarro2);
