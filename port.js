@@ -10,7 +10,7 @@ function selectionSort(arr) { //Define a função que recebe um array arr como p
     // que o valor na posição min, atualizamos min para ser o novo índice j.
     // Atenção: aqui apenas guardamos a posição do menor número, ainda não trocamos nada.
     }//Fim do loop interno. Agora temos certeza de que min é o índice do menor elemento da parte não ordenada.
-    [arr[i], arr[min]] = [arr [min], arr[i]); //Esta linha usa destructuring assignment para trocar
+    [arr[i], arr[min]] = [arr [min], arr[i]]; //Esta linha usa destructuring assignment para trocar
     // os valores de lugar. O valor que estava em arr[i] vai para a posição arr[min] e vice-versa.
     // É o momento em que o menor valor encontrado "vai para o início" da parte não ordenada.
     }//Fim do loop externo. Repetimos o processo para a próxima posição i.
